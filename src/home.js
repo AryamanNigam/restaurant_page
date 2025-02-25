@@ -4,8 +4,12 @@ import two from "./assets/aleisha-kalina-MjuzZ5os-xI-unsplash.jpg";
 import three from "./assets/yucel-moran-MNctbZ6pa5c-unsplash.jpg";
 import four from "./assets/krisztian-tabori-ZQf4jzkpz1k-unsplash.jpg";
 
-document.addEventListener("DOMContentLoaded", () => {
+export const renderHome = () => {
     const content = document.querySelector("#content");
+
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
 
     const image = document.createElement("div");
     image.className = "image";  
@@ -73,4 +77,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     lower.appendChild(lowerGrid);
     container.appendChild(lower);
-});
+};
