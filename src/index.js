@@ -1,3 +1,4 @@
 import "./styles.css";
-
-console.log("hello world");
+import "./menu";
+import "./home";
+import "./about";
