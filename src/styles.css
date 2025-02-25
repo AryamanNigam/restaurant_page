@@ -82,25 +82,22 @@ nav > button:hover{
 
 .upper{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     color: #F9FAFB;
-}
-
-.q{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 }
 
 #quote{
     font-size: 80px;
     font-style: italic;
+    text-align: center;
+    font-weight: bold;
 }
 
 #quotee{
     font-size: 25px;
+    margin-left: 555px;
+    text-align: center;
 }
 
 .lower{
@@ -109,9 +106,26 @@ nav > button:hover{
    color: #F9FAFB;
 }
 
-.lower > div:first-child{
-    text-align: center;
-    font-size: 35px;
+
+.lower-grid{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 280px 280px;
+    gap: 30px;
+}
+
+.card{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card > img{
+    height: 280px;
 }
 
 .footer{
