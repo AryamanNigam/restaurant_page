@@ -1,0 +1,61 @@
+image{
+    grid-column: 1 / 2;
+    background-color: aliceblue;
+    background-image: url(assets/cristi-ursea-TRcTy_qdBQY-unsplash.jpg);
+    background-size: cover;
+    background-position: 0px -190px;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    background-color: oklch(0.266 0.079 36.259);
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAFB;
+}
+
+#quote{
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+#quotee{
+    font-size: 25px;
+    margin-left: 555px;
+    text-align: center;
+}
+
+.lower{
+   padding-left: 15px;
+   padding-right: 15px; 
+   color: #F9FAFB;
+}
+
+
+.lower-grid{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 280px 280px;
+    gap: 30px;
+}
+
+.card{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card > img{
+    height: 280px;
+}
